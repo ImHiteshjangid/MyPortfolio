@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 3.5em);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.container > div {
+  padding: 0.75em 0.25em;
+}
+
+.professionalHeadshot {
+  height: 10em;
+  border-radius: 50%;
+}
+
+.textWhite {
+  color: rgb(118, 118, 118) !important;
+}
+
+.headingOne {
+  font-size: 2.5em;
+}
+
+.headingThree {
+  font-size: 1.5em;
+}
+
+
+.socialIcons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: 2.2px solid #64ffda;
+  border-radius: 50%;
+  color: #64ffda;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+  background: #ffffff00; /* Background color for icons */
+}
+
+.icon:hover {
+  color: #343030;
+  background-color: #64ffda;
+  transform: translateY(-5px); /* Move icon upwards */
+  border-color: #64ffda; /* Change border color */
+}
+
+.downloadButton {
+  color: white; /* Text color */
+  background-color: #1e1e1e; /* Background color */
+  border: 2px solid #868686; /* Border color */
+  padding: 10px 25px; /* Padding for size */
+  font-size: 14px; /* Font size */
+  margin-top: 20px;
+  border-radius: 25px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline-block for proper spacing */
+  transition: background-color 0.3s, color 0.3s, border 0.3s, transform 0.3s; /* Transition for hover effects */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.downloadButton:hover {
+  background-color: #f6f6f6; /* Background color on hover */
+  color: #1a1a1a; /* Text color on hover */
+  border-color: #f5f5f5; /* Border color on hover */
+  transform: scale(1.1); /* Zoom effect on hover */
+}

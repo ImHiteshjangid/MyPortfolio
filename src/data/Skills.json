@@ -1,0 +1,175 @@
+{
+  "skills": [
+    {
+      "title": "SQL & Databases",
+      "description": "With a strong foundation in SQL and database management, I excel in designing, querying, and optimizing databases efficiently. My expertise includes creating complex queries, managing large datasets, and ensuring data integrity with precision. I am adept at performance tuning, troubleshooting database issues",
+      "iconClass": "firstServiceIcon"
+    },
+    {
+      "title": "Programming Languages",
+      "description": "Proficient in a variety of programming languages, including Python, SQL, R for Analysis and JavaScript, HTML, CSS, and PHP for development, I bring a broad skill set to the table. My expertise spans performing advanced data analysis, creating interactive visualizations, and developing dynamic web applications.",
+      "iconClass": "secondServiceIcon"
+    },
+    {
+      "title": "Frameworks and Libraries",
+      "description": "Leveraging frameworks and libraries, I streamline development and enhance functionality across projects. Using tools like pandas, NumPy, and Scikit-learn for data science, as well as Django and Flask for web development, I build robust applications and perform data analysis efficiently.",
+      "iconClass": "thirdServiceIcon"
+    },
+    {
+      "title": "Analysis & Visualization",
+      "description": "Turning raw data into compelling stories is my forte. With expertise in fields like data analysis, visualization,  informative Dashboards, I transform complex datasets into clear, actionable insights. Utilizing tools like Power BI, Tableau, and Python libraries such as Matplotlib and Seaborn.",
+      "iconClass": "fourthServiceIcon"
+    }
+  ],
+  "tools": [
+    {
+      "category": "Programming Languages",
+      "className": "programmingLanguages",
+      "items": [
+        {
+          "alt": "Python",
+          "src": "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+          "link": "#"
+        },
+        {
+          "alt": "SQL",
+          "src": "https://www.svgrepo.com/show/331760/sql-database-generic.svg",
+          "link": "#"
+        },
+        {
+          "alt": "R",
+          "src": "https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg",
+          "link": "#"
+        },
+        {
+          "alt": "JavaScript",
+          "src": "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Java",
+          "src": "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+          "link": "#"
+        },
+        {
+          "alt": "HTML",
+          "src": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+          "link": "#"
+        },
+        {
+          "alt": "CSS",
+          "src": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+          "link": "#"
+        },
+        {
+          "alt": "C++",
+          "src": "https://img.icons8.com/?size=100&id=40669&format=png&color=000000",
+          "link": "#"
+        },
+        {
+          "alt": "PHP",
+          "src": "https://www.vectorlogo.zone/logos/php/php-icon.svg",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "category": "Frameworks and Libraries",
+      "className": "frameworksLibraries",
+      "items": [
+        {
+          "alt": "Pandas",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg",
+          "link": "#"
+        },
+        {
+          "alt": "NumPy",
+          "src": "https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Tensorflow",
+          "src": "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Scikit-learn",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Matplotlib",
+          "src": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/matplotlib.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Seaborn",
+          "src": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/seaborn.svg",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "category": "Database and Cloud Hosting",
+      "className": "database",
+      "items": [
+        {
+          "alt": "Mysql",
+          "src": "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Oracle",
+          "src": "https://www.vectorlogo.zone/logos/oracle/oracle-ar21.svg",
+          "link": "#"
+        },
+        {
+          "alt": "MS Sql Server",
+          "src": "https://upload.wikimedia.org/wikipedia/de/8/8c/Microsoft_SQL_Server_Logo.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Replit",
+          "src": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/replit.svg",
+          "link": "#"
+        },
+        {
+          "alt": "PostgreSQL",
+          "src": "https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg",
+          "link": "#"
+        },
+        {
+          "alt": "MongoDB",
+          "src": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "category": "Software and Tools",
+      "className": "software",
+      "items": [
+        {
+          "alt": "Jupyter",
+          "src": "https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Pycharm",
+          "src": "https://vectorwiki.com/images/eYbwq__pycharm.svg",
+          "link": "#"
+        },
+        {
+          "alt": "RStudio",
+          "src": "https://vectorwiki.com/images/wlyBs__r-studio.svg",
+          "link": "#"
+        },
+        {
+          "alt": "Git",
+          "src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

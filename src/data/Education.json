@@ -1,0 +1,55 @@
+[
+  {
+    "degree": "Bachelor of Science in Information Technology",
+    "institution": "Vidya Niketan Jr. College",
+    "description": "Graduated with honors, GPA: 4.0. Focused on Databases, software development, and data science.",
+    "topics": [
+      "Databases Management Systems",
+      "Software Development",
+      "Programmig"
+    ],
+    "logo": "",
+    "type": "Academic"
+  },
+  {
+    "degree": "Higher Secondary School Certificate",
+    "institution": "D.V.V High School",
+    "description": "Graduated with distinction, Excelled in mathematics, physics, and computer science.",
+    "topics": [
+      "Mathematics",
+      "Physics",
+      "Computer Science"
+    ],
+    "logo": "",
+    "type": "Academic"
+  },
+  {
+    "degree": "Google Data Analytics Professional Certificate",
+    "institution": "Coursera",
+    "description": "Completed the Google Data Analytics Professional Certificate, gaining in-depth knowledge of data analysis and practical skills.",
+    "topics": [
+      "Data Cleaning and Transformation",
+      "Data Analysis",
+      "Data Visualization",
+      "Data Ethics and Privacy",
+      "Statistical Analysis",
+      "R Programming",
+      "Project Management",
+      "Capstone Project"
+    ],
+    "logo": "",
+    "type": "Certification"
+  },
+  {
+    "degree": "Google Data Analytics Professional Certificate",
+    "institution": "Coursera",
+    "description": "Completed a comprehensive data science program, covering topics such as data analysis, machine learning, and statistical modeling.",
+    "topics": [
+      "Data Analysis",
+      "Machine Learning",
+      "Statistical Modeling"
+    ],
+    "logo": "",
+    "type": "Certification"
+  }
+]

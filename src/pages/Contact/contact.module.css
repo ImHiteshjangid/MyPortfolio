@@ -1,0 +1,155 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contactForm {
+  flex: 1;
+  margin-right: 50px; /* Increased margin to add more space */
+}
+
+.contactDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px; /* Increased top margin */
+}
+
+.subHeading {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+  background-color: #36454F;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px; /* Add margin to create space between sections */
+}
+
+.subHeading2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0px;
+  position: relative;
+  display: inline-block;
+  color: #36454F;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: 20px; /* Add margin to create space between sections */
+}
+
+.contactDetail {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.iconDetail {
+  margin-right: 10px;
+  color: #36454F;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #666;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submitButton:hover {
+  background: #0056b3;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border: 2px solid #818589;
+  border-radius: 50%;
+  color: #36454F;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  background: #fff; /* Background color for icons */
+}
+
+.icon:hover {
+  color: #fff;
+  background-color: #36454F;
+  transform: translateY(-5px); /* Move icon upwards */
+  border-color: #36454F; /* Change border color */
+}

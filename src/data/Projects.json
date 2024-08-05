@@ -1,0 +1,44 @@
+[
+  {
+    "title": "AutomatiData",
+    "content": "Automatidata is partnering with the New York City Taxi and Limousine Commission (TLC) to develop a regression model that estimates taxi fares before rides. With data from over 200,000 licensees making around one million trips daily, my task as a new Data Analyst at Automatidata is to create this model to enhance fare transparency and planning for NYC passengers.",
+    "gitHubUrl": "https://github.com/AVS1508/cough_detector",
+    "blogUrl": "https://example.com/AutomatiData-blog",
+    "techStack": ["Python", "Jupyter", "Excel", "Pandas", "Matplotlib"]
+  },
+  {
+    "title": "Tiktok Claims Classification",
+    "content": "Develop a machine learning model to classify videos based on whether they contain claims or opinions. By implementing this accurate prediction model, TikTok aims to streamline the user report process. This will help reduce backlog and enhance content moderation tasks. This model will play a key role in improving TikTok’s content management.",
+    "gitHubUrl": "https://github.com/AVS1508/Tiktok Claims Classification",
+    "blogUrl": "https://example.com/Tiktok Claims Classification-blog",
+    "techStack": ["Python", "Jupyter", "Excel", "Seaborn"]
+  },
+  {
+    "title": "Customer Segmentation",
+    "content": "Customer segmentation involves dividing customers into groups based on shared characteristics. This process allows businesses to target marketing campaigns more effectively. By categorizing customers, companies can improve service and develop tailored products. Understanding these segments enhances overall business strategy and customer satisfaction.",
+    "gitHubUrl": "https://github.com/AVS1508/URefer",
+    "blogUrl": "https://example.com/urefer-blog",
+    "techStack": ["Python", "Jupyter", "Excel", "NumPy"]
+  },
+  {
+    "title": "Sales Analysis Dashboard",
+    "content": "The project goal is to create a sales performance analysis dashboard using Power BI and Excel. This dashboard will offer insights into sales trends, regional performance, and product performance. It will help visualize key metrics and support decision-making. Comprehensive analysis will guide strategic improvements.",
+    "gitHubUrl": "https://github.com/AVS1508/cough_detector",
+    "blogUrl": "https://example.com/SalesAnalysisDashboard-blog",
+    "techStack": ["PowerBI", "Excel"]
+  },
+  {
+    "title": "Waze Customer Churn Analysis",
+    "content": "The goal is to increase Waze’s growth by preventing monthly user churn. A churn prediction model will be developed to improve user retention. By analyzing data, we aim to generate actionable insights and assist leadership in data-driven decisions. Proactively identifying and engaging high-risk churn users will be crucial.",
+    "gitHubUrl": "https://github.com/fuseumass/WazeCustomerChurnAnalysis.github.io",
+    "blogUrl": "https://example.com/WazeCustomerChurnAnalysis-website-blog",
+    "techStack": ["Python", "Pandas", "Excel", "Matplotlib"]
+  },
+  {
+    "title": "Student Management System",
+    "content": "This is a Simple Student Management System I developed while learning Django. It provides a fundamental framework for managing student data and interactions. The system includes basic functionalities for tracking student information. It serves as a practical example of Django’s capabilities.",
+    "gitHubUrl": "https://github.com/AVS1508/StudentManagementSystem",
+    "blogUrl": "https://example.com/StudentManagementSystem-blog",
+    "techStack": ["Python", "Bootstrap", "Django", "PyCharm"]
+  }
+]

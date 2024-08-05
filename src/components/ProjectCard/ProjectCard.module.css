@@ -1,0 +1,89 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0.5em 1.4em;
+  border: 2px solid #ffffff;
+  border-radius: 0.3em;
+  background: linear-gradient(135deg, rgb(60, 60, 60), rgb(34, 34, 34));
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 16px 32px rgba(95, 29, 29, 0.2);
+}
+
+.cardImg {
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 1.5em;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.cardTitle {
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+.cardText {
+  font-size: 1em;
+  color: #ddd;
+  margin-bottom: 1.5em;
+}
+
+.techStack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.icon {
+  font-size: 2.5em;
+  margin: 0.25em;
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2em; /* Add this line to increase the space between buttons */
+}
+
+.button {
+  margin: 0.25em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  background-color: #333;
+  border: none;
+  border-radius: 0.5em;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+.buttonIcon {
+  margin-right: 0.5em;
+}

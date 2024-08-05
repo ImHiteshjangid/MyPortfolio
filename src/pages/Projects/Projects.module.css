@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a192f;
+  min-height: calc(100vh - 10em);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+}
+
+.containerSize {
+  max-width: 1600px; /* Adjust this value to make the container smaller or bigger */
+}
+
+.subHeading {
+  font-size: 1.8em;
+  color: #555555;
+  font-weight: normal;
+  margin-bottom: 1.5em;
+}
+
+.projectCard {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.projectCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+}
+
+.projectCardImage {
+  border-radius: 10px 10px 0 0;
+}
+
+.projectCardBody {
+  border-radius: 0 0 10px 10px;
+  padding: 1em;
+}
+
+.projectCardTitle {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.projectCardContent {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.projectCardButton {
+  margin: 0.5em;
+  font-size: 0.9em;
+}
