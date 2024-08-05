@@ -97,7 +97,7 @@ const icons = {
   Pandas: <SiPandas className={styles.icon} style={{ color: "#7952B3" }} />,
   Matplotlib: <SiGraphql className={styles.icon} style={{ color: "#E10098" }} />,  // Placeholder
   PowerBI: <SiPowerbi className={styles.icon} style={{ color: "#F2C811" }} />,
-  Django: <SiDjango className={styles.icon} style={{ color: "#092E20" }} />,
+  Django: <SiDjango className={styles.icon} style={{ color: "#F37626" }} />,
   PyCharm: <SiPycharm className={styles.icon} style={{ color: "#21D789" }} />,
   Seaborn: <SiChartdotjs className={styles.icon} style={{ color: "#FF6384" }} />,  // Placeholder
 };
