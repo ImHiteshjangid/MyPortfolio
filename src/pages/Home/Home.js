@@ -27,8 +27,8 @@ const Home = () => {
     <Container
       fluid
       className={styles.container}
-      // style={{ background: `url(${HomeBackground})` }}
-      style={{ backgroundColor: '#0a192f'  }}
+      style={{ background: `url(${HomeBackground})` }}
+      // style={{ backgroundColor: '#0a192f'  }}
     >
       {/* <Row>
         <Col>
@@ -54,24 +54,26 @@ const Home = () => {
         <Col>
           <span
             style={{
-              color: "#c4c4c4",
-              fontSize: "2.5rem",
+              color: "#ff6347",
+              fontSize: "2.8rem",
               fontWeight: "bold",
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)",
               fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-              transition: "transform 0.3s ease-in-out",
+              transition: "transform 0.3s ease-in-out, color 0.3s ease-in-out, background 0.3s ease-in-out",
               display: "inline-block",
               padding: "1px 10px",
               borderRadius: "10px",
-              background: "rgba(0, 0, 0, 0.0)",
+              background: "rgba(0, 0, 0, 0.1)",
             }}
             onMouseOver={(e) => {
               e.target.style.transform = "scale(1.1)";
-              e.target.style.background = "rgba(255, 255, 255, 0.0)";
+              e.target.style.background = "rgba(255, 255, 255, 0.1)"; // Slight background color on hover
+              e.target.style.color = "#878787"; // Change color on hover
             }}
             onMouseOut={(e) => {
               e.target.style.transform = "scale(1)";
-              e.target.style.background = "rgba(0, 0, 0, 0.0)";
+              e.target.style.background = "rgba(0, 0, 0, 0.1)";
+              e.target.style.color = "#ff6347"; // Revert color when not hovering
             }}
           >
             HITESH JANGID
@@ -81,7 +83,7 @@ const Home = () => {
       <Row>
         <Col>
           <span className={`${styles.textWhite} ${styles.headingThree}`}>
-           Seasoned Programmer with Extensive Expertise in Python, SQL, and Data Analysis, Committed to Advancing a<br />Career in Data Science and Artificial Intelligence.
+           Seasoned Programmer with Extensive Expertise in Python, SQL, and Data Analysis, Committed to<br />Advancing a Career in Data Science and Artificial Intelligence.
           </span>
         </Col>
       </Row>
@@ -113,7 +115,7 @@ const Home = () => {
       <Row>
         <Col>
         <a href="path/to/your/file.pdf" className={styles.downloadButton} download>
-          Download Resume
+           Resume 📝
         </a>
         </Col>
       </Row>

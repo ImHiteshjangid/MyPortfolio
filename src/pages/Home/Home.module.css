@@ -43,9 +43,9 @@
   width: 50px;
   height: 50px;
   margin: 0 10px;
-  border: 2.2px solid #64ffda;
+  border: 2.2px solid #c3f0f0;
   border-radius: 50%;
-  color: #64ffda;
+  color: #c3f0f0;
   font-size: 1.4rem;
   transition: all 0.3s ease;
   background: #ffffff00; /* Background color for icons */
@@ -59,9 +59,9 @@
 }
 
 .downloadButton {
-  color: white; /* Text color */
+  color: #c3f0f0; /* Text color */
   background-color: #1e1e1e00; /* Background color */
-  border: 2px solid #868686; /* Border color */
+  border: 2px solid #c3f0f0; /* Border color */
   padding: 10px 25px; /* Padding for size */
   font-size: 14px; /* Font size */
   margin-top: 20px;
@@ -74,8 +74,8 @@
 }
 
 .downloadButton:hover {
-  background-color: #f6f6f6; /* Background color on hover */
-  color: #1a1a1a; /* Text color on hover */
-  border-color: #f5f5f5; /* Border color on hover */
+  background-color: #ff6347; /* Background color on hover */
+  color: #fafafa; /* Text color on hover */
+  border-color: #ff6347; /* Border color on hover */
   transform: scale(1.1); /* Zoom effect on hover */
 }
