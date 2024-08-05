@@ -60,7 +60,7 @@
 
 .downloadButton {
   color: white; /* Text color */
-  background-color: #1e1e1e; /* Background color */
+  background-color: #1e1e1e00; /* Background color */
   border: 2px solid #868686; /* Border color */
   padding: 10px 25px; /* Padding for size */
   font-size: 14px; /* Font size */
