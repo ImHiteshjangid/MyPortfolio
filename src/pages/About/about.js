@@ -36,7 +36,7 @@ const About = () => {
             <Col md={8} className={styles.textCol}>
               <h2 className={styles.heading}>𝐻𝑒𝑙𝑙𝑜! 𝑀𝑦 𝑛𝑎𝑚𝑒 𝑖𝑠 𝐻𝑖𝑡𝑒𝑠ℎ 𝐽𝑎𝑛𝑔𝑖𝑑,</h2>
               <p className={styles.description}>
-                I'm a focused and enthusiastic programmer with a keen interest in data science and artificial intelligence. Through comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love for these domains came into being. With a solid foundation in data analysis and expertise in programming languages such as SQL, Python, and R. I am committed to continually honing my skills and actively pursuing new challenges to drive my professional growth.
+                I'm a focused and enthusiastic programmer with a keen interest in data science and Artificial intelligence. Through comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love for these domains came into being. With a solid foundation in data analysis and expertise in programming languages such as SQL, Python, and R. I am committed to continually honing my skills and actively pursuing new challenges to drive my professional growth.
               </p>
               <p className={styles.description}>
                 I learnt to code through a blend of online and offline courses, relentless practice, and numerous personal projects. It all began during my junior college years when I started learning about databases and software development. My fascination with data science and AI soon followed. Since then, I have been learning something new every day, thanks to the projects that have taught me valuable skills.
