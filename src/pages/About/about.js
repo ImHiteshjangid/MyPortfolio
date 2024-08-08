@@ -7,7 +7,7 @@ import {
   ProfessionalHeadshot,
   FallbackProfessionalHeadshot,
   ProfessionalHeadshot2, // Import the second image
-  HomeBackground,
+  HomeBackground, // Background image
 } from "../../assets";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
