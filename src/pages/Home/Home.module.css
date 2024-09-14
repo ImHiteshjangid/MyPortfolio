@@ -43,29 +43,29 @@
   width: 50px;
   height: 50px;
   margin: 0 10px;
-  border: 2.2px solid #c3f0f0;
+  /* border: 2px solid #ecf2f2; */
   border-radius: 50%;
-  color: #c3f0f0;
-  font-size: 1.4rem;
+  color: #f7ffff;
+  font-size: 1.6rem;
   transition: all 0.3s ease;
   background: #ffffff00; /* Background color for icons */
 }
 
 .icon:hover {
   color: #343030;
-  background-color: #64ffda;
+  background-color: #fdffff;
   transform: translateY(-5px); /* Move icon upwards */
-  border-color: #64ffda; /* Change border color */
+  border-color: #eaf2f0; /* Change border color */
 }
 
 .downloadButton {
-  color: #c3f0f0; /* Text color */
+  color: #f3f7f7; /* Text color */
   background-color: #1e1e1e00; /* Background color */
-  border: 2px solid #c3f0f0; /* Border color */
+  border: 2px solid #f0f5f5; /* Border color */
   padding: 10px 25px; /* Padding for size */
   font-size: 14px; /* Font size */
   margin-top: 20px;
-  border-radius: 25px; /* Rounded corners */
+  border-radius: 5px; /* Rounded corners */
   text-align: center; /* Center the text */
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Inline-block for proper spacing */

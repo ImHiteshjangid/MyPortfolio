@@ -63,16 +63,16 @@ const Home = () => {
               display: "inline-block",
               padding: "1px 10px",
               borderRadius: "10px",
-              background: "rgba(0, 0, 0, 0.1)",
+              background: "rgba(0, 0, 0, 0.0)",
             }}
             onMouseOver={(e) => {
               e.target.style.transform = "scale(1.1)";
-              e.target.style.background = "rgba(255, 255, 255, 0.1)"; // Slight background color on hover
+              e.target.style.background = "rgba(255, 255, 255, 0.0)"; // Slight background color on hover
               e.target.style.color = "#878787"; // Change color on hover
             }}
             onMouseOut={(e) => {
               e.target.style.transform = "scale(1)";
-              e.target.style.background = "rgba(0, 0, 0, 0.1)";
+              e.target.style.background = "rgba(0, 0, 0, 0.0)";
               e.target.style.color = "#ff6347"; // Revert color when not hovering
             }}
           >

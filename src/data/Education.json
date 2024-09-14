@@ -1,24 +1,36 @@
 [
   {
     "degree": "Bachelor of Science in Information Technology",
-    "institution": "Vidya Niketan Jr. College",
+    "institution": "Sheth N.K.T.T College",
     "description": "Graduated with honors, GPA: 4.0. Focused on Databases, software development, and data science.",
     "topics": [
       "Databases Management Systems",
       "Software Development",
-      "Programmig"
+      "Programming"
     ],
     "logo": "",
     "type": "Academic"
   },
   {
-    "degree": "Higher Secondary School Certificate",
-    "institution": "D.V.V High School",
+    "degree": "Higher Secondary School Certificate (HSC)",
+    "institution": "Vidya Niketan Jr. College",
     "description": "Graduated with distinction, Excelled in mathematics, physics, and computer science.",
     "topics": [
       "Mathematics",
       "Physics",
       "Computer Science"
+    ],
+    "logo": "",
+    "type": "Academic"
+  },
+  {
+    "degree": "Secondary School Certificate (SSC)",
+    "institution": "D.V.V High School",
+    "description": "Achieved high distinction with a strong focus on science, mathematics, and general studies.",
+    "topics": [
+      "Mathematics",
+      "Science",
+      "Social Studies and Languages"
     ],
     "logo": "",
     "type": "Academic"
@@ -41,13 +53,25 @@
     "type": "Certification"
   },
   {
-    "degree": "Google Data Analytics Professional Certificate",
+    "degree": "Python For Everybody",
     "institution": "Coursera",
     "description": "Completed a comprehensive data science program, covering topics such as data analysis, machine learning, and statistical modeling.",
     "topics": [
       "Data Analysis",
       "Machine Learning",
       "Statistical Modeling"
+    ],
+    "logo": "",
+    "type": "Certification"
+  },
+  {
+    "degree": "Ultimate MySQL",
+    "institution": "Udemy",
+    "description": "Completed certification focused on advanced programming concepts and data structures.",
+    "topics": [
+      "Algorithms",
+      "Data Structures",
+      "Optimization Techniques"
     ],
     "logo": "",
     "type": "Certification"

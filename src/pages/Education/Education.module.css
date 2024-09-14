@@ -1,108 +1,141 @@
+/* General container styling */
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #f0f2f5;
-  min-height: calc(100vh - 10em);
+  background: linear-gradient(90deg, #dae7f5, #a7f5f5); /* Light background for contrast */
+  width: 100%;
+  max-width: 1550px; /* Increased width to allow more content */
   justify-content: center;
   align-items: center;
   padding: 2em;
+  margin: 0 auto;
 }
 
 .section {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure cards are evenly distributed */
 }
 
 .sectionTitle {
-  font-size: 2em; /* Increase font size for prominence */
+  font-size: 1.5em;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 1em; /* Increase margin for spacing */
+  color: #2c3e50;
+  margin-bottom: 1em;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  border-bottom: 2px solid #a9a8a8; /* Add a subtle border */
-  padding-bottom: 0.5em; /* Add padding below the title */
+  letter-spacing: 1.5px;
+  border-bottom: 1.7px solid #2980b9; /* Strong border under the title */
+  padding-bottom: 0.5em;
+  display: inline-block; /* Ensures the border is only as wide as the text */
+  text-align: left;
+  width: 100%;
 }
 
+/* Card styling */
 .card {
-  background-color: #f6eeee;
-  border: 2px solid #423c3c;
-  border-radius: 10px;
-  padding: 2em;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0); /* Subtle gradient for a modern feel */
+  border-radius: 12px;
+  /* border: 1.7px solid #2980b9; */
+  padding: 1em;
   margin: 1em;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  text-align: center;
-  max-width: 600px;
+  flex: 1 1 calc(23% - 1em); /* Allow up to 4 cards per row */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
 }
 
 .card:hover {
-  background-color: #f0fdfc;
-  border: 2px solid #00bbff;
-  transform: scale(1.1);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  background: linear-gradient(145deg, #f0f9ff, #ffffff); /* Slight color change on hover */
 }
 
 .logoContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.75em;
 }
 
 .logo {
-  max-width: 240px;
-  height: auto;
+  width: 210px;
+  height: 90px;
+  object-fit: contain;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Subtle shadow under the logo */
 }
 
+/* Card content */
 .degree {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
-  color: #333;
-  margin: 0.5em 0;
+  color: #34495e;
+  margin-top: 0.5em;
 }
 
 .institution {
-  font-size: 1.3em;
-  color: #666;
-  margin-bottom: 1em;
+  font-size: 0.9em;
+  color: #697374;
+  margin-bottom: 0.75em;
 }
 
 .separator {
-  border-top: 2px solid #5b5b5b; /* Light gray color for the line */
-  margin: 1em 0; /* Space around the separator */
+  border-top: 1.2px solid #979c9f;
+  margin: 1em 0;
 }
-
+  
 .description {
-  font-size: 1em;
-  color: #444;
+  font-size: 0.8em;
+  color: #2c3e50;
   line-height: 1.6;
+  padding: 0 1em;
 }
 
+/* Topics list (only for academic details) */
 .topicsList {
-  list-style-type: disc;
-  padding-left: 1.5em;
+  list-style-type: none;
+  padding-left: 0;
   text-align: left;
+  margin-top: 1em;
 }
 
 .topicItem {
   font-size: 0.9em;
-  color: #555;
-  margin: 0.5em 0;
+  color: #2980b9;
+  margin: 0.3em 0;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+.topicItem:before {
+  content: "•";
+  color: #2980b9;
+  position: absolute;
+  left: 0;
+  font-size: 1.2em;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .card {
+    flex: 1 1 calc(30% - 1em); /* 3 cards per row for medium-large screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    flex: 1 1 calc(45% - 1em); /* 2 cards per row for smaller screens */
+  }
 }
 
 @media (max-width: 768px) {
-  .degree {
-    font-size: 1.5em;
-  }
-
-  .institution {
-    font-size: 1.2em;
+  .card {
+    flex: 1 1 calc(100% - 1em); /* Full width for mobile */
   }
 
   .logo {
-    max-width: 100px;
+    width: 100px;
+    height: 100px;
   }
 }

@@ -5,30 +5,35 @@ import styles from "./Education.module.css";
 
 // Import images
 import msbshselogo from "../../assets/educationimages/Msbshse.png";
-import mulogo from "../../assets/educationimages/MU.png"; // Update the filename as needed
-import googlelogo from "../../assets/educationimages/Google_2015_logo.svg.png"; // Update the filename as needed
-
+import mulogo from "../../assets/educationimages/MU.png";
+import googlelogo from "../../assets/educationimages/Google_2015_logo.svg.png";
+import MichiganUniversity from "../../assets/educationimages/University_of_Michigan.svg";
+import courseralogo from "../../assets/educationimages/courseraLogo.png";
+import Udemy from "../../assets/educationimages/Udemy New.png";
 // Import data
 import educationData from "../../data/Education.json";
 
-// Map the image paths
+// Map the image paths based on degree
 const imagePaths = {
-  "D.V.V High School": msbshselogo,
-  "Vidya Niketan Jr. College": mulogo,
-  "Coursera": googlelogo
+  "Bachelor of Science in Information Technology": mulogo,
+  "Higher Secondary School Certificate (HSC)": msbshselogo,
+  "Secondary School Certificate (SSC)": msbshselogo,
+  "Google Data Analytics Professional Certificate": googlelogo,
+  "Python For Everybody": MichiganUniversity,
+  "Ultimate MySQL": Udemy,
 };
 
-const DetailCard = ({ logo, degree, institution, description, topics }) => (
+const DetailCard = ({ logo, degree, institution, description, topics, showTopics }) => (
   <Col md={6} lg={4} className="d-flex justify-content-center">
     <div className={styles.card}>
       <div className={styles.logoContainer}>
-        <img src={logo} alt={`${institution} Logo`} className={styles.logo} />
+        <img src={logo} alt={`${degree} Logo`} className={styles.logo} />
       </div>
       <h3 className={styles.degree}>{degree}</h3>
       <h4 className={styles.institution}>{institution}</h4>
       <div className={styles.separator}></div>
       <p className={styles.description}>{description}</p>
-      {topics && topics.length > 0 && (
+      {showTopics && topics && topics.length > 0 && (
         <ul className={styles.topicsList}>
           {topics.map((topic, index) => (
             <li key={index} className={styles.topicItem}>{topic}</li>
@@ -40,10 +45,9 @@ const DetailCard = ({ logo, degree, institution, description, topics }) => (
 );
 
 const Education = () => {
-  // Map the JSON data with the image imports
   const updatedEducationData = educationData.map(item => ({
     ...item,
-    logo: imagePaths[item.institution] || item.logo // Use the imported logo if available
+    logo: imagePaths[item.degree] || item.logo
   }));
 
   return (
@@ -62,6 +66,7 @@ const Education = () => {
                 institution={item.institution}
                 description={item.description}
                 topics={item.topics}
+                showTopics={true} // Show topics for academic details
               />
             ))}
         </Row>
@@ -76,7 +81,7 @@ const Education = () => {
                 degree={item.degree}
                 institution={item.institution}
                 description={item.description}
-                topics={item.topics}
+                showTopics={false} // Do not show topics for certifications
               />
             ))}
         </Row>

@@ -8,8 +8,14 @@ body {
 }
 
 .container {
-  padding: 4rem 0;
-  background-color: #0a192f; /* Ensure container background matches the page */
+  max-width: 1600px; /* Controls the max width of the container */
+  width: 100%; /* Ensures the container takes full width when smaller than max */
+  padding: 3rem 3rem; /* Padding within the container */
+  margin: 0 auto; /* Centers the container horizontally */
+  background-color: rgb(7, 1, 48); /* Adds a slightly transparent background */
+  border-radius: 0px; /* Softens the edges of the container */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Adds a shadow for depth */
+  transition: all 0.3s ease-in-out; /* Smooth transitions for resizing */
 }
 
 .skillsRow {

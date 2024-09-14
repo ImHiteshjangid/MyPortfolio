@@ -26,3 +26,5 @@ export { default as SalesAnalysisDashboard } from "./projects/webp/SalesAnalysis
 export { default as FallbackSalesAnalysisDashboard } from "./projects/jpg/SalesAnalysisDashboard.jpg";
 export { default as AutomatiData } from "./projects/webp/AutomatiData.webp";
 export { default as FallbackAutomatiData } from "./projects/jpg/AutomatiData.jpg";
+export { default as Cyclistic } from "./projects/webp/cyclistic.webp";
+export { default as FallbackCyclistic } from "./projects/jpg/cyclistic.jpg";

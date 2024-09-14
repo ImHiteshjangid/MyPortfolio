@@ -10,51 +10,106 @@
 }
 
 .containerSize {
-  max-width: 1600px; /* Adjust this value to make the container smaller or bigger */
+  max-width: 1600px;
 }
 
-.subHeading {
-  font-size: 1.8em;
-  color: #555555;
-  font-weight: normal;
-  margin-bottom: 1.5em;
-}
-
-.projectCard {
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0.5em 1.4em;
+  /* border: 2px solid #ffffff; */
+  border-radius: 0.3em;
+  background: linear-gradient(135deg, rgb(60, 60, 60), rgb(34, 34, 34));
+  color: #fff;
   overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.projectCard:hover {
+.card:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  background-color: #f9f9f9;
+  box-shadow: 0 16px 32px rgba(95, 29, 29, 0.2);
 }
 
-.projectCardImage {
-  border-radius: 10px 10px 0 0;
+.cardImg {
+  height: 160px; /* Adjust the height as needed */
+  width: 100%; /* Ensures the image takes full width minus the padding */
+  object-fit: contain; /* Ensures the full image fits within the card without cropping */
+  object-position: center; /* Centers the image inside the card */
+  border-radius: 0; /* Keeps the corners square, or adjust for rounded corners */
+  padding: 10px; /* Adds padding inside the card, so image doesn't touch edges */
+  box-sizing: border-box; /* Ensures padding is included in width and height */
+  background-color: linear-gradient(135deg, rgb(60, 60, 60), rgb(34, 34, 34)); /* Optional: Adds a background color to fill any empty space */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+.cardImg:hover {
+  transform: scale(1.05); /* Slightly zooms the image on hover */
 }
 
-.projectCardBody {
-  border-radius: 0 0 10px 10px;
-  padding: 1em;
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 1.5em;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
-.projectCardTitle {
-  font-size: 1.6em;
-  font-weight: bold;
-  margin-bottom: 0.5em;
+.cardTitle {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 0em;
 }
 
-.projectCardContent {
-  font-size: 1em;
-  color: #333;
-  margin-bottom: 1em;
-}
-
-.projectCardButton {
-  margin: 0.5em;
+.cardText {
   font-size: 0.9em;
+  color: #ddd;
+  margin-bottom: 0em;
+}
+
+.techStack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.2em;
+}
+
+.icon {
+  font-size: 2em;
+  margin: 0.25em;
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.button {
+  margin: 0.25em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 0.3em;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #333;
+  transform: scale(1.1);
+}
+
+.buttonIcon {
+  margin-right: 0.5em;
 }
