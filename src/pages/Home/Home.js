@@ -114,7 +114,7 @@ const Home = () => {
       </Row>
       <Row>
         <Col>
-        <a href="path/to/your/file.pdf" className={styles.downloadButton} download>
+        <a href="public\Hitesh_Resume_New.pdf" className={styles.downloadButton} download>
            Resume 📝
         </a>
         </Col>
