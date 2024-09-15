@@ -1,7 +1,7 @@
 /* about.module.css */
 .aboutContainer {
   padding: 2rem;
-  background-color: rgb(203, 197, 197);
+  background-color: rgb(232, 227, 227);
   background-size: cover;
   background-position: center;
 }
@@ -26,9 +26,9 @@
 .imageWrapper {
   display: inline-block;
   border: 3px solid #018969;
-  padding: 20px;
+  padding: 0px;
   position: relative;
-  background: white;
+  background: rgb(232, 227, 227);
   border-radius: 10px;
   width: 240px;
   height: 340px;
