@@ -16,7 +16,7 @@ const NavigationBar = (props) => {
     >
       <Container fluid>
         <Navbar.Brand style={{ color: "white", fontWeight: "600" }}>
-        Ｈｉｔｅｓｈ　Ｊａｎｇｉｄ　ペ円イ
+        Ｈｉｔｅｓｈ　Ｊａｎｇｉｄ
         </Navbar.Brand>
         <Navbar.Toggle
           className="ms-auto"
