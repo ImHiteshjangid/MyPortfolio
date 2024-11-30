@@ -1,13 +1,14 @@
 /* about.module.css */
 .aboutContainer {
-  padding: 2rem;
-  background-color: rgb(232, 227, 227);
+  padding: 3rem 1.5rem;
+  background-color: #f5f5f5;
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
 }
 
 .innerContainer {
-  max-width: 14500px;
+  max-width: 1600px;
   margin: 0 auto;
   color: #333;
 }
@@ -15,7 +16,7 @@
 .aboutRow {
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .imageCol {
@@ -25,34 +26,34 @@
 
 .imageWrapper {
   display: inline-block;
-  border: 3px solid #018969;
-  padding: 0px;
+  border-radius: 0%;
+  padding: 5px;
   position: relative;
-  background: rgb(232, 227, 227);
-  border-radius: 10px;
-  width: 240px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 250px;
   height: 340px;
-  margin-bottom: 1rem;
   transition: transform 0.3s ease-in-out;
+  margin-bottom: 2rem;
 }
 
 .profileImage {
   width: 100%;
-  max-width: 232px;
-  border-radius: 10px;
+  max-width: 250px;
+  border-radius: 0%;
   position: absolute;
-  top: -10px;
-  left: -10px;
+  top: 0;
+  left: 0;
   z-index: 1;
   transition: transform 0.3s ease-in-out;
 }
 
 .imageWrapper:hover {
-  transform: translate(10px, 10px);
+  transform: scale(1.0);
 }
 
 .profileImage:hover {
-  transform: translate(-10px, -10px);
+  transform: scale(1.1);
 }
 
 .textCol {
@@ -61,36 +62,42 @@
 
 .heading {
   font-size: 2rem;
-  color: #018969;
-  margin-bottom: 0.5rem;
+  color: #2d3e50;
+  margin-bottom: 0 rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-}
-
-.headingSkills {
-  font-size: 2rem;
-  color: #018969;
-  margin-bottom: 1.5rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  border-bottom: 2px solid #64ffda;
-  padding-bottom: 0.5rem;
+  font-weight: 700;
 }
 
 .description {
-  font-size: 1.2rem;
-  color: #555;;
-  line-height: 1.8;
-  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 0.2 rem;
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Add styles for the contact information section */
+.contactRow {
+  margin-top: 1rem;
+}
+
+.contactInfo {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 0.2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.highlightedLetter {
+  color: #FF9800;
+  font-weight: bold;
+}
+
 .interestsRow {
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1.7rem;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 3rem;
 }
 
 .interestsCol {
@@ -99,29 +106,31 @@
 
 .headingInterests {
   font-size: 2rem;
-  color: #018969;
+  color: #2d3e50;
   margin-bottom: 1.5rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  border-bottom: 3px solid #018969;
+  border-top: 2px solid #018969;
+  border-bottom: 2px solid #018969;
   padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .badgesContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1rem;
+  justify-content: left;
 }
 
 .badge {
   font-size: 1rem;
-  color: #ccd6f6;
-  background-color: #0a192f;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+  color: #fff;
+  background-color: #FF9800;
+  padding: 0.7rem 1.2rem;
+  border-radius: 30px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  margin: 0.3rem;
   display: inline-flex;
   align-items: center;
 }

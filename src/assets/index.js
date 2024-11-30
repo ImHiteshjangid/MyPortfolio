@@ -28,3 +28,4 @@ export { default as AutomatiData } from "./projects/webp/AutomatiData.webp";
 export { default as FallbackAutomatiData } from "./projects/jpg/AutomatiData.jpg";
 export { default as Cyclistic } from "./projects/webp/cyclistic.webp";
 export { default as FallbackCyclistic } from "./projects/jpg/cyclistic.jpg";
+export { default as profileImage } from "./images/profileimage.png";
