@@ -1,22 +1,22 @@
 {
   "skills": [
     {
-      "title": "SQL & Databases",
-      "description": "With a strong foundation in SQL and database management, I excel in designing, querying, and optimizing databases efficiently. My expertise includes creating complex queries, managing large datasets, and ensuring data integrity with precision. I am adept at performance tuning, troubleshooting database issues",
+      "title": "SQL AND DATABASES",
+      "description": "With a strong foundation in SQL and database management, I excel in designing, querying, and optimizing databases efficiently. My expertise includes creating complex queries, managing large datasets, and ensuring data integrity with precision. I am adept at performance tuning, troubleshooting database issues.",
       "iconClass": "firstServiceIcon"
     },
     {
-      "title": "Programming Languages",
+      "title": "PROGRAMMING LANGUAGES",
       "description": "Proficient in a variety of programming languages, including Python, SQL, R for Analysis and JavaScript, HTML, CSS, and PHP for development, I bring a broad skill set to the table. My expertise spans performing advanced data analysis, creating interactive visualizations, and developing dynamic web applications.",
       "iconClass": "secondServiceIcon"
     },
     {
-      "title": "Frameworks and Libraries",
+      "title": "FRAMEWORK AND LIBRARIES",
       "description": "Leveraging frameworks and libraries, I streamline development and enhance functionality across projects. Using tools like pandas, NumPy, and Scikit-learn for data science, as well as Django and Flask for web development, I build robust applications and perform data analysis efficiently.",
       "iconClass": "thirdServiceIcon"
     },
     {
-      "title": "Analysis & Visualization",
+      "title": "ANALYSIS AND VISULISATION",
       "description": "Turning raw data into compelling stories is my forte. With expertise in fields like data analysis, visualization,  informative Dashboards, I transform complex datasets into clear, actionable insights. Utilizing tools like Power BI, Tableau, and Python libraries such as Matplotlib and Seaborn.",
       "iconClass": "fourthServiceIcon"
     }

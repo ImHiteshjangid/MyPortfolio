@@ -97,6 +97,9 @@ const Projects = () => {
     <React.Fragment>
       <Header title="Projects" />
       <Container fluid className={`${styles.container} ${styles.containerSize}`}>
+        <p className={styles.pageTagline}>
+          <span className={styles.stylishCursive}>A collection </span>of my personal and professional projects where I applied my skills in Data Science, Analysis, and Development.
+        </p>
         <Row className="justify-content-center">
           {projectsData.map((obj, index) => (
             <Col xs={12} md={6} lg={4} className="d-flex align-items-stretch mb-4" key={index}>

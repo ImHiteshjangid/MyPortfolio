@@ -94,6 +94,13 @@
   font-weight: bold;
 }
 
+
+.largeText {
+  font-size: 2rem; /* Adjust this value to increase font size */
+  font-weight: bold; /* Optional: Make it bold */
+}
+
+
 .interestsRow {
   justify-content: left;
   align-items: left;
@@ -105,16 +112,16 @@
 }
 
 .headingInterests {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #2d3e50;
   margin-bottom: 1.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  border-top: 2px solid #018969;
+  /* border-top: 2px solid #018969; */
   border-bottom: 2px solid #018969;
   padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  /* padding-top: 0.5rem; */
 }
 
 .badgesContainer {

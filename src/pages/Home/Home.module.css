@@ -53,10 +53,16 @@
 .name {
   font-size: 3.5rem;
   font-weight: bold;
-  color: #E5E4E2;
+  color: #a1a1a1;
   margin-bottom: 0.5rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 }
+
+.highlight {
+  color: #FF5733; /* Desired color for the highlighted letters */
+  font-size: 4.5rem; /* Adjust the font size as needed */
+}
+
 
 .tagline {
   font-size: 1.8rem;

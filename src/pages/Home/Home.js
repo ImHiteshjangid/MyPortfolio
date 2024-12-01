@@ -53,7 +53,10 @@ const Home = () => {
       <Container fluid className={styles.container}>
         <Row className={styles.heroSection}>
           <Col md={6} className={styles.heroText}>
-            <h1 className={styles.name}>Hitesh Jangid</h1>
+            <h1 className={styles.name}>
+              <span className={styles.highlight}>H</span>ITESH&nbsp; 
+              <span className={styles.highlight}>J</span>ANGID
+            </h1>
             <p className={styles.tagline}>{displayText}|</p>
             <p className={styles.description}>
               I specialize in SQL, Python, and Data Analysis, with a passion for

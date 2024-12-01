@@ -14,7 +14,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('/api/contact', { // Adjust the endpoint to your server
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -32,7 +32,9 @@ const Contact = () => {
 
   return (
     <div className={styles.contactContainer}>
-      <h2 className={styles.heading}>Get In Touch</h2>
+      <h2 className={styles.heading}>
+        <span className={styles.letterL}>L</span>et's Connect
+      </h2>
       <div className={styles.contactContent}>
         <form className={styles.contactForm} onSubmit={handleSubmit}>
           <div className={styles.inputGroup}>

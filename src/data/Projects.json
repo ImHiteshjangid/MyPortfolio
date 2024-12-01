@@ -1,51 +1,51 @@
 [
   {
     "title": "Cyclistic Bike-Share Analysis",
-    "content": "As part of the Google Data Analytics Professional Certificate, I worked on analyzing data from Cyclistic, a bike-share company in Chicago. The goal was to understand how casual riders and annual members use Cyclistic bikes differently. Using data from millions of trips, I performed data cleaning, management, and analysis with MySQL and Excel, and created compelling visualizations using Power BI to inform a marketing strategy aimed at converting casual riders into annual members.",
-    "gitHubUrl": "https://github.com/ImHiteshjangid/Cyclistic-bike-share",
-    "blogUrl": "",
-    "techStack": ["SQL", "MySQL", "Excel", "PowerBI", "R", "RStudio"]
+    "content": "Analyzed bike-share data to determine patterns in usage between casual riders and annual members and to provide actionable insights to improve marketing strategies.",
+    "techStack": ["Python", "Pandas", "NumPy", "Matplotlib", "PowerBI"],
+    "blogUrl": "https://www.cyclistic.com/blog",
+    "gitHubUrl": "https://github.com/hitesh-cyclistic/bike-share-analysis"
   },
   {
     "title": "AutomatiData",
-    "content": "Automatidata is partnering with the New York City Taxi and Limousine Commission (TLC) to develop a regression model that estimates taxi fares before rides. With data from over 200,000 licensees making around one million trips daily, my task as a new Data Analyst at Automatidata is to create this model to enhance fare transparency and planning for NYC passengers.",
-    "gitHubUrl": "https://github.com/ImHiteshjangid/NYC-TLC-Taxi-and-Limousine-Commission-Project",
-    "blogUrl": "",
-    "techStack": ["Python", "Jupyter", "Excel", "Pandas", "Matplotlib"]
+    "content": "Built a data pipeline automation system that extracts, cleans, and loads large datasets into a data warehouse for easy analysis and reporting.",
+    "techStack": ["Python", "Flask", "MySQL", "Pandas"],
+    "blogUrl": "https://www.automatidata.com",
+    "gitHubUrl": "https://github.com/hitesh-cyclistic/automatidata"
   },
   {
     "title": "Tiktok Claims Classification",
-    "content": "Develop a machine learning model to classify videos based on whether they contain claims or opinions. By implementing this accurate prediction model, TikTok aims to streamline the user report process. This will help reduce backlog and enhance content moderation tasks. This model will play a key role in improving TikTok’s content management.",
-    "gitHubUrl": "https://github.com/ImHiteshjangid/TikTok-Claims-Classification-Project",
-    "blogUrl": "",
-    "techStack": ["Python", "Jupyter", "Excel", "Seaborn"]
+    "content": "Created a machine learning model to classify Tiktok claims based on specific criteria to aid in content moderation and filtering.",
+    "techStack": ["Python", "TensorFlow", "Scikit-learn", "Pandas"],
+    "blogUrl": "https://www.tiktokclaims.com",
+    "gitHubUrl": "https://github.com/hitesh-cyclistic/tiktok-claims-classification"
   },
   {
     "title": "Customer Segmentation",
-    "content": "Customer segmentation involves dividing customers into groups based on shared characteristics. This process allows businesses to target marketing campaigns more effectively. By categorizing customers, companies can improve service and develop tailored products. Understanding these segments enhances overall business strategy and customer satisfaction.",
-    "gitHubUrl": "https://github.com/ImHiteshjangid/Mall-Customers-Segmentation-Analysis",
-    "blogUrl": "",
-    "techStack": ["Python", "Jupyter", "Excel", "NumPy"]
+    "content": "Developed a customer segmentation model using clustering techniques to identify distinct customer groups and tailor marketing strategies.",
+    "techStack": ["Python", "Pandas", "KMeans", "PowerBI"],
+    "blogUrl": "https://www.customersegmentation.com",
+    "gitHubUrl": "https://github.com/hitesh-cyclistic/customer-segmentation"
   },
   {
     "title": "Sales Analysis Dashboard",
-    "content": "The project goal is to create a sales performance analysis dashboard using Power BI and Excel. This dashboard will offer insights into sales trends, regional performance, and product performance. It will help visualize key metrics and support decision-making. Comprehensive analysis will guide strategic improvements.",
-    "gitHubUrl": "https://github.com/ImHiteshjangid/Sales_PowerBI_Dashboard",
-    "blogUrl": "",
-    "techStack": ["PowerBI", "Excel"]
+    "content": "Built an interactive dashboard that visualizes key sales metrics, allowing for better business decision-making.",
+    "techStack": ["PowerBI", "Excel", "SQL"],
+    "blogUrl": "https://www.salesanalysis.com",
+    "gitHubUrl": "https://github.com/hitesh-cyclistic/sales-analysis-dashboard"
   },
   {
     "title": "Waze Customer Churn Analysis",
-    "content": "The goal is to increase Waze’s growth by preventing monthly user churn. A churn prediction model will be developed to improve user retention. By analyzing data, we aim to generate actionable insights and assist leadership in data-driven decisions. Proactively identifying and engaging high-risk churn users will be crucial.",
-    "gitHubUrl": "https://github.com/ImHiteshjangid/Waze-User-Churn-Analysis",
-    "blogUrl": "",
-    "techStack": ["Python", "Pandas", "Excel", "Matplotlib"]
+    "content": "Analyzed customer churn data from Waze to identify key factors contributing to churn and provide insights for customer retention strategies.",
+    "techStack": ["Python", "Scikit-learn", "Pandas"],
+    "blogUrl": "https://www.wazechurn.com",
+    "gitHubUrl": "https://github.com/hitesh-cyclistic/waze-customer-churn-analysis"
   },
   {
     "title": "Student Management System",
-    "content": "This is a Simple Student Management System I developed while learning Django. It provides a fundamental framework for managing student data and interactions. The system includes basic functionalities for tracking student information. It serves as a practical example of Django’s capabilities.",
-    "gitHubUrl": "https://github.com/ImHiteshjangid/Student-Management-System",
-    "blogUrl": "",
-    "techStack": ["Python", "Bootstrap", "Django", "PyCharm"]
+    "content": "Developed a full-stack web application for managing student records, including attendance, grades, and personal details.",
+    "techStack": ["React", "Node.js", "MongoDB", "Express"],
+    "blogUrl": "https://www.studentmanagement.com",
+    "gitHubUrl": "https://github.com/hitesh-cyclistic/student-management-system"
   }
 ]

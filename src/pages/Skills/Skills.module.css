@@ -1,153 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Ensuring the body background color is consistent */
+/* General styles */
 body {
-  background-color: #0a192f;
-  margin: 0;
+  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  color: #333333;
+  margin: 0;
 }
 
 .container {
-  max-width: 1600px; /* Controls the max width of the container */
-  width: 100%; /* Ensures the container takes full width when smaller than max */
-  padding: 3rem 3rem; /* Padding within the container */
-  margin: 0 auto; /* Centers the container horizontally */
-  background-color: rgb(7, 1, 48); /* Adds a slightly transparent background */
-  border-radius: 0px; /* Softens the edges of the container */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Adds a shadow for depth */
-  transition: all 0.3s ease-in-out; /* Smooth transitions for resizing */
+  max-width: 1500px;
+  margin: 2rem auto;
+  padding: 0rem 2rem 0rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pageTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid #FF9800;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  color: #2d3e50;
 }
 
 .skillsRow {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
+  flex-direction: column; /* Stack items vertically */
+  gap: 1rem;
+  align-items: center; /* Ensure items take full width */
 }
 
 .skillCol {
-  flex: 1 1 calc(33% - 2rem);
-  max-width: 330px;
+  width: 95%; /* Make each column take the full width */
+  margin-bottom: 0.5rem;
 }
 
 .skillCard {
-  background-color: #112240;
+  width: 100%; /* Ensure skill cards also take full width */
+  max-width: 100%; /* Remove any maximum width restrictions */
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
   border-radius: 8px;
-  padding: 1rem;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+  text-align: left; /* Align content to the left */
   transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .skillCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.skillIcon {
-  color: #64ffda;
-  margin-bottom: 1rem;
-}
+/* .skillImageContainer {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1rem;
+  border: 3px solid #eeeeee;
+  border-radius: 50%;
+  overflow: hidden;
+} */
 
-.skillCard:hover .skillIcon {
-  color: #f5ff64;
-  margin-bottom: 1rem;
-}
+/* .skillImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
 
 .skillTitle {
-  font-size: 1.3rem;
-  color: #64ffda;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333333;
   margin-bottom: 0.5rem;
-  font-family: 'Roboto', sans-serif;
 }
 
-.skillCard:hover .skillTitle {
-  color: #f5ff64;
-  margin-bottom: 1rem;
+.highlight {
+  color: #FF9800; /* Set your desired highlight color */
 }
+
+.largeText {
+  font-size: 1.8rem; /* Adjust this size as needed */
+}
+
+
 
 .skillDescription {
   font-size: 1rem;
-  color: #8892b0;
-  font-family: 'Roboto', sans-serif;
+  color: #666666;
+}
+
+.toolsTitle {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  border-top: 2px solid #FF9800;
+  border-bottom: 2px solid #FF9800;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  color: #2d3e50;
+}
+
+.highlight {
+  color: #FF9800; /* Desired highlight color for 'T' */
+  font-weight: bold; /* Optional: make the highlighted letter bold */
 }
 
 .toolsRow {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .toolCategoryCol {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .categoryTitle {
-  font-size: 1.4rem;
-  color: #64ffda;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
   margin-bottom: 1rem;
+  color: #333333;
   text-transform: uppercase;
-}
-
-.categoryLine {
-  border-top: 1px solid #64ffda;
-  margin-bottom: 1rem;
 }
 
 .logoContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: left;
 }
 
 .toolLabel {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #112240;
-  border-radius: 8px;
-  padding: 0.5rem;
+  padding: 1rem;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-  width: 120px; /* Adjust width as needed */
+  background-color: #ffffff00;
+  border: 2px solid #e2e1e1;
+  border-radius: 8px;
+  width: 120px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .toolLabel:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  background-color: #223a5f; /* Change background color on hover */
-}
-
-.toolImageLink {
-  display: inline-block;
-  border-radius: 50%;
-  width: 90px; /* Circle size */
-  height: 90px; /* Circle size */
-  background-color: #e0e5ec; /* Optional: Background color of the circle */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .toolImage {
-  width: 55px; /* Reduced logo size */
-  height: 55px; /* Reduced logo size */
-  border-radius: 10%; /* Ensures the logo remains circular */
-  transition: transform 0.3s;
-}
-
-.toolImage:hover {
-  transform: scale(1.8);
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
 }
 
 .toolName {
   font-size: 0.9rem;
-  color: #ccd6f6;
-  margin-top: 0.5rem;
-}
-
-.toolLine {
-  border-top: 1px solid #64ffda;
-  width: 50%;
-  margin-top: 0.5rem;
+  color: #555555;
 }

@@ -10,6 +10,7 @@ import googlelogo from "../../assets/educationimages/Google_2015_logo.svg.png";
 import MichiganUniversity from "../../assets/educationimages/University_of_Michigan.svg";
 import courseralogo from "../../assets/educationimages/courseraLogo.png";
 import Udemy from "../../assets/educationimages/Udemy New.png";
+
 // Import data
 import educationData from "../../data/Education.json";
 
@@ -55,7 +56,12 @@ const Education = () => {
       <Header title="Education" />
       <Container fluid className={styles.container}>
         <Row className={styles.section}>
-          <h2 className={styles.sectionTitle}>Academic Details</h2>
+        <h2 className={styles.sectionTitle}>
+          <span className={styles.highlightedLetter}>A</span>cademic <span className={styles.highlightedLetter}>J</span>ourney 📚
+        </h2>
+          <p className={styles.tagline}>
+            Explore my educational achievements that have shaped my journey in IT and beyond.
+          </p>
           {updatedEducationData
             .filter(item => item.type === "Academic")
             .map((item, index) => (
@@ -71,7 +77,10 @@ const Education = () => {
             ))}
         </Row>
         <Row className={styles.section}>
-          <h2 className={styles.sectionTitle}>Certifications</h2>
+        <h2 className={styles.sectionTitle}>
+          <span className={styles.highlightedLetter}>C</span>ertifications 🏅
+        </h2>
+        <p className={styles.tagline}>A showcase of certifications that highlight my skills and professional development.</p>
           {updatedEducationData
             .filter(item => item.type === "Certification")
             .map((item, index) => (
